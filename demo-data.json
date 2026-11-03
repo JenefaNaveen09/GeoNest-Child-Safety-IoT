@@ -1,0 +1,13 @@
+{
+  "demo-wristband": {
+    "latitude": 0,
+    "longitude": 0,
+    "heartRate": 0,
+    "spo2": 0,
+    "temperature": 0,
+    "humidity": 0,
+    "currentRoom": "Demo room",
+    "posture": "Standby",
+    "activity": "Standby"
+  }
+}

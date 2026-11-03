@@ -1,0 +1,10 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "demo-wristband": {
+      ".read": "auth != null && auth.uid === 'DASHBOARD_UID'",
+      ".write": "auth != null && (auth.uid === 'DASHBOARD_UID' || auth.uid === 'HUB_UID' || auth.uid === 'WRISTBAND_UID')"
+    }
+  }
+}
